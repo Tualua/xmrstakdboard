@@ -1,2 +1,6 @@
 #Module for XMRStak Dashboard
-. '.\helpers\*.ps1'
+Import-Module -Name UniversalDashboard.Community
+. "$PSSCriptRoot\helpers\functions.ps1"
+
+
+
