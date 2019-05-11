@@ -1,0 +1,29 @@
+{
+	"wallet" : "",
+	"miners" : [
+		{	"hostname":"192.168.1.10",
+			"macaddr":"01:23:45:67:89:0A",
+			"bmc":"192.168.1.11",
+			"os":"windows",
+			"os_user":"user",
+			"os_user_pass":"password",
+			"http_user":"xmrstak",
+			"http_user_pass":"password",
+			"http_port":"1111",
+			"bmc_user":"admin",
+			"bmc_user_pass":"password"			
+		},
+		{	"hostname":"192.168.1.12",
+			"macaddr":"01:23:45:67:89:0B",
+			"bmc":"192.168.1.13",
+			"os":"linux",
+			"os_user":"user",
+			"os_user_pass":"password",
+			"http_user":"xmrstak",
+			"http_user_pass":"password",
+			"http_port":"2222",
+			"bmc_user":"admin",
+			"bmc_user_pass":"password"			
+		}
+	]
+}
